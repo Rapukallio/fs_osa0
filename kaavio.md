@@ -8,7 +8,7 @@
     server-->>browser: HTML document
     deactivate server
 
-    Note right og the browser: Selain hakee palvelimelta sivun sisöllön ja rakenteen HTML koodin avulla GET pyynnöllä eli "NOTES"
+    Note right of the browser: Selain hakee palvelimelta sivun sisöllön ja rakenteen HTML koodin avulla GET pyynnöllä eli "NOTES"
     
     browser->>server: GET https://studies.cs.helsinki.fi/exampleapp/main.css
     activate server
